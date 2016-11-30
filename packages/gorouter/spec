@@ -84,6 +84,11 @@ files:
   - routing-release/src/github.com/gogo/protobuf/gogoproto/*.go # gosub
   - routing-release/src/github.com/gogo/protobuf/proto/*.go # gosub
   - routing-release/src/github.com/gogo/protobuf/protoc-gen-gogo/descriptor/*.go # gosub
+  - routing-release/src/github.com/klauspost/compress/flate/*.go # gosub
+  - routing-release/src/github.com/klauspost/compress/gzip/*.go # gosub
+  - routing-release/src/github.com/klauspost/compress/zlib/*.go # gosub
+  - routing-release/src/github.com/klauspost/cpuid/*.go # gosub
+  - routing-release/src/github.com/klauspost/crc32/*.go # gosub
   - routing-release/src/github.com/nats-io/nats/*.go # gosub
   - routing-release/src/github.com/nats-io/nats/encoders/builtin/*.go # gosub
   - routing-release/src/github.com/nats-io/nuid/*.go # gosub
@@ -124,6 +129,11 @@ files:
   - routing-release/src/github.com/tedsuo/ifrit/sigmon/*.go # gosub
   - routing-release/src/github.com/tedsuo/rata/*.go # gosub
   - routing-release/src/github.com/urfave/negroni/*.go # gosub
+  - routing-release/src/github.com/valyala/bytebufferpool/*.go # gosub
+  - routing-release/src/github.com/valyala/fasthttp/*.go # gosub
+  - routing-release/src/github.com/valyala/fasthttp/fasthttpadaptor/*.go # gosub
+  - routing-release/src/github.com/valyala/fasthttp/fasthttputil/*.go # gosub
+  - routing-release/src/github.com/valyala/fasthttp/stackless/*.go # gosub
   - routing-release/src/github.com/vito/go-sse/sse/*.go # gosub
   - routing-release/src/golang.org/x/crypto/pbkdf2/*.go # gosub
   - routing-release/src/gopkg.in/yaml.v2/*.go # gosub
